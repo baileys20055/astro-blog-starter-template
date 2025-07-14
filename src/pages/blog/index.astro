@@ -103,7 +103,7 @@ const posts = (await getCollection('blog')).sort(
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
 										<Image
-											width={1920}        // This is the ACTUAL (intrinsic) size you want to serve
+											width={1920}   
   											height={960}
   											sizes="(max-width: 768px) 100vw, 960px"
   											style="width: 100%; height: auto"
